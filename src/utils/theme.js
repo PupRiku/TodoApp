@@ -1,8 +1,8 @@
 const theme = {
   colors: {
     main: "#003459",
-    mainDark: "#00171F",
-    mainLight: "#007EA7",
+    mainDark: "#21283e",
+    mainLight: "#2c3247",
     mainLighter: "#00A8E8",
     textColor: "#333",
     whiteColor: "#fff",
