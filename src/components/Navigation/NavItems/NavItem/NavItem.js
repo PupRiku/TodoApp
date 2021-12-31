@@ -39,8 +39,7 @@ const NavItem = ({ link, children, mobile, clicked }) => {
     <Li>
       <StyledNavLink
         onClick={clicked}
-        exact
-        activeClassName="active"
+        activeclassname="active"
         mobile={mobile ? 1 : 0}
         to={link}
       >
