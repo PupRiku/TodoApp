@@ -26,6 +26,7 @@ html {
     --color-mainLighter: ${(props) => props.theme.colors.mainLighter};
     --color-textColor: ${(props) => props.theme.colors.textColor};
     --color-whiteColor: ${(props) => props.theme.colors.whiteColor};
+    --color-errorRed: ${(props) => props.theme.colors.errorRed};
     --shadow: ${(props) => props.theme.colors.shadow};
 
     @media ${(props) => props.theme.mediaQueries.small} {
