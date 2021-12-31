@@ -17,9 +17,8 @@ const NavItems = () => {
   return (
     <Nav>
       <Ul>
-        <NavItem>Item 1</NavItem>
-        <NavItem>Item 2</NavItem>
-        <NavItem>Item 3</NavItem>
+        <NavItem link="/">Home</NavItem>
+        <NavItem link="/todos">Todos</NavItem>
       </Ul>
     </Nav>
   );
