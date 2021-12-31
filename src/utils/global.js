@@ -9,6 +9,12 @@ export default createGlobalStyle`
     box-sizing: inherit;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    -webkit-tap-highlight-color: transparent;
+}
+
+*:focus {
+  outline: 0;
+  outline: none;
 }
 
 html {
@@ -34,6 +40,10 @@ body {
     font-family: 'Roboto', sans-serif;
     font-size: 400;
     line-height: 1.6;
+}
+
+a, button {
+    cursor: pointer;
 }
 
 a, input, textarea, button {

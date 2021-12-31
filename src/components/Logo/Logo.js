@@ -7,7 +7,7 @@ const LogoWrapper = styled.div`
   height: 100%;
   display: flex;
   align-items: center;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 1.2rem;
 `;
 

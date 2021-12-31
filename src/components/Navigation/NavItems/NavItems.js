@@ -5,20 +5,26 @@ import NavItem from "./NavItem/NavItem";
 
 const Nav = styled.nav`
   display: flex;
+  margin-top: ${(props) => (props.mobile ? "-6rem" : null)};
 `;
 
 const Ul = styled.ul`
   display: flex;
+  flex-direction: ${(props) => (props.mobile ? "column" : "row")};
   align-items: center;
   height: 100%;
 `;
 
-const NavItems = () => {
+const NavItems = ({ mobile, clicked }) => {
   return (
-    <Nav>
-      <Ul>
-        <NavItem link="/">Home</NavItem>
-        <NavItem link="/todos">Todos</NavItem>
+    <Nav mobile={mobile}>
+      <Ul mobile={mobile}>
+        <NavItem mobile={mobile} clicked={clicked} link="/">
+          Home
+        </NavItem>
+        <NavItem mobile={mobile} clicked={clicked} link="/todos">
+          Todos
+        </NavItem>
       </Ul>
     </Nav>
   );
